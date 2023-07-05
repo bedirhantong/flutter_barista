@@ -1,4 +1,4 @@
-# Starbucks Barista
+# Kahve Dükkanı Uygulaması
 
 This is an interactive application that teaches users about the ingredients and preparation of different coffees at Starbucks. It is a great resource for coffee lovers to learn about different flavours and types of coffee. Different types of coffee are listed on the screen. If you like, you can search for the name of the coffee and access the type of coffee you want. If you wish, you can select the coffee ingredient and the coffee types containing that ingredient will be listed on the main screen.
 
@@ -12,7 +12,7 @@ This is an interactive application that teaches users about the ingredients and 
 
 ## Setup
 - If you are a developer, you can clone the project from the required IDEs and run it on your computer.
-    - Clone this repository: `git clone https://github.com/bedirhantong/flutter_barista.git`
+  - Clone this repository: `git clone https://github.com/bedirhantong/flutter_barista.git`
 - If you want to use the application as a user, wait for the new version to be released :)
 
 ## Usage
@@ -32,5 +32,19 @@ If you would like to contribute to this project, please follow the steps below:
 3. Make and test your changes.
 4. Create a pull request to upload your changes.
 5. After going through the review process, your changes will be merged into the main project.
+
+
+
+## Getting Started
+
+This simple conference app allows:
+
+- [ ] listing different coffees
+- [ ] filtering coffee
+- [ ] list the desired coffee content
+- [ ] add to favourites
+- [ ] accessing the desired coffee from the search bar
+- [ ] customising the content of a favourite coffee
+- [ ] adding customised coffee
 
 
