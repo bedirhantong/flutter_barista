@@ -1,9 +1,32 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_barista/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:splash_view/source/presentation/pages/splash_view.dart';
+import 'package:splash_view/source/presentation/presentation.dart';
+import 'package:splash_view/source/presentation/widgets/done.dart';
 
 void main() {
-  runApp(const Home());
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashView(
+        backgroundImageDecoration: const BackgroundImageDecoration(
+          image: AssetImage('assets/images/splash_background.jpg'),
+          fit: BoxFit.cover,
+        ),
+        logo: const Image(
+          image: AssetImage('assets/images/starbucks_icon.png'),
+          height: 150,
+          width: 150,
+        ),
+        loadingIndicator: const CupertinoActivityIndicator(),
+        done: Done(
+          const Home(),
+        ),
+      ),
+    ),
+  );
 }
 
 class Home extends StatefulWidget {
