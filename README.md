@@ -1,4 +1,4 @@
-# Starbucks Barista
+# Star Sipper
 
 This is an interactive application that teaches users about the ingredients and preparation of different coffees at Starbucks. It is a great resource for coffee lovers to learn about different flavours and types of coffee. Different types of coffee are listed on the screen. If you like, you can search for the name of the coffee and access the type of coffee you want. If you wish, you can select the coffee ingredient and the coffee types containing that ingredient will be listed on the main screen.
 
