@@ -17,6 +17,7 @@ dependencies:
   google_fonts: ^5.1.0
   splash_view: ^2.0.1
   introduction_screen: ^3.1.11
+  dot_navigation_bar: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -35,6 +36,8 @@ flutter:
     - assets/images/promotions/
     - assets/images/splash_screen/
     - assets/images/onboarding_screen/
+    - assets/images/drinks/
+    - assets/images/breakfast/
 
   fonts:
     - family: Satisfy
